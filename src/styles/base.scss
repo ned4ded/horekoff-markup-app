@@ -1,0 +1,20 @@
+@import 'fonts/base';
+
+@import 'variables/base';
+
+@import 'helpers/base';
+
+@import 'bootfix/base';
+
+@import 'vendor/base';
+
+body {
+  min-width: 1024px;
+  margin: 0;
+}
+
+@import 'generated/base.scss';
+
+@import 'blocks/base.scss';
+
+@import 'pages/base.scss';
